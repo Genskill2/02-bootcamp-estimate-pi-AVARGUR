@@ -28,7 +28,7 @@ def monte_carlo(n1):
         n=n-1
         
     pi2 = (4*(in_circle/n1))
-    print(pi2)
+    return pi2
 
     
 class TestWallis(unittest.TestCase):
